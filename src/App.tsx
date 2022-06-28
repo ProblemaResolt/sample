@@ -1,13 +1,13 @@
 import React from 'react';
 import "./index.scss";
 import CssBaseline from '@mui/material/CssBaseline';
-import ScrollMotion from './component/ScrollMotion';
 import Header from './component/Header';
+import Contents from './contents/Contents';
 
 const App = () => {
   return <CssBaseline>
           <Header />
-          <ScrollMotion />
+          <Contents />
          </CssBaseline>;
 };
 
